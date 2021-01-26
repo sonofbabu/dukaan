@@ -63,6 +63,12 @@ class HomeViewController: UIViewController {
         self.homeCollectionView.register(UINib(nibName: "HomeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "menuCell")
         self.homeTableView.isScrollEnabled = false
         self.homeTableView.reloadData()
+        let tapGesture = UITapGestureRecognizer(target: self,action: #selector(hideKeyboard))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func hideKeyboard() {
+        view.endEditing(true)
     }
     
 // MARK:- PREPARE DATA FROM ARRAY
