@@ -15,6 +15,14 @@
 		1CA3607B25BF05CE008C3A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3607925BF05CE008C3A6B /* LaunchScreen.storyboard */; };
 		1CA3608625BF05CE008C3A6B /* Ducaan_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3608525BF05CE008C3A6B /* Ducaan_ioTests.swift */; };
 		1CA3609125BF05CE008C3A6B /* Ducaan_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3609025BF05CE008C3A6B /* Ducaan_ioUITests.swift */; };
+		1CA360A325BF3998008C3A6B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA360A225BF3998008C3A6B /* TabBarViewController.swift */; };
+		1CD9343725BFD1BD008B518D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9343625BFD1BD008B518D /* HomeViewController.swift */; };
+		1CD9343925BFD1C8008B518D /* BagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9343825BFD1C8008B518D /* BagViewController.swift */; };
+		1CD9343B25BFD1D8008B518D /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9343A25BFD1D8008B518D /* OrdersViewController.swift */; };
+		1CD9344025BFD88C008B518D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9343E25BFD88C008B518D /* HomeTableViewCell.swift */; };
+		1CD9344125BFD88C008B518D /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9343F25BFD88C008B518D /* HomeTableViewCell.xib */; };
+		1CD9344425C06E69008B518D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9344225C06E69008B518D /* HomeCollectionViewCell.swift */; };
+		1CD9344525C06E69008B518D /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD9344325C06E69008B518D /* HomeCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		1CA3608C25BF05CE008C3A6B /* Ducaan.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ducaan.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA3609025BF05CE008C3A6B /* Ducaan_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ducaan_ioUITests.swift; sourceTree = "<group>"; };
 		1CA3609225BF05CE008C3A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA360A225BF3998008C3A6B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1CD9343625BFD1BD008B518D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1CD9343825BFD1C8008B518D /* BagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewController.swift; sourceTree = "<group>"; };
+		1CD9343A25BFD1D8008B518D /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		1CD9343E25BFD88C008B518D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1CD9343F25BFD88C008B518D /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		1CD9344225C06E69008B518D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CD9344325C06E69008B518D /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		1CA3606D25BF05CC008C3A6B /* Ducaan.io */ = {
 			isa = PBXGroup;
 			children = (
+				1CA360A125BF376E008C3A6B /* View Controllers */,
 				1CA3606E25BF05CC008C3A6B /* AppDelegate.swift */,
 				1CA3607025BF05CC008C3A6B /* SceneDelegate.swift */,
 				1CA3607225BF05CC008C3A6B /* ViewController.swift */,
@@ -126,6 +143,37 @@
 				1CA3609225BF05CE008C3A6B /* Info.plist */,
 			);
 			path = Ducaan.ioUITests;
+			sourceTree = "<group>";
+		};
+		1CA360A125BF376E008C3A6B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9343D25BFD433008B518D /* Home CollectionView */,
+				1CD9343C25BFD41B008B518D /* Home TableView */,
+				1CA360A225BF3998008C3A6B /* TabBarViewController.swift */,
+				1CD9343625BFD1BD008B518D /* HomeViewController.swift */,
+				1CD9343825BFD1C8008B518D /* BagViewController.swift */,
+				1CD9343A25BFD1D8008B518D /* OrdersViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1CD9343C25BFD41B008B518D /* Home TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9343E25BFD88C008B518D /* HomeTableViewCell.swift */,
+				1CD9343F25BFD88C008B518D /* HomeTableViewCell.xib */,
+			);
+			path = "Home TableView";
+			sourceTree = "<group>";
+		};
+		1CD9343D25BFD433008B518D /* Home CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9344225C06E69008B518D /* HomeCollectionViewCell.swift */,
+				1CD9344325C06E69008B518D /* HomeCollectionViewCell.xib */,
+			);
+			path = "Home CollectionView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD9344525C06E69008B518D /* HomeCollectionViewCell.xib in Resources */,
 				1CA3607B25BF05CE008C3A6B /* LaunchScreen.storyboard in Resources */,
 				1CA3607825BF05CE008C3A6B /* Assets.xcassets in Resources */,
+				1CD9344125BFD88C008B518D /* HomeTableViewCell.xib in Resources */,
 				1CA3607625BF05CC008C3A6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD9343725BFD1BD008B518D /* HomeViewController.swift in Sources */,
+				1CD9343925BFD1C8008B518D /* BagViewController.swift in Sources */,
+				1CA360A325BF3998008C3A6B /* TabBarViewController.swift in Sources */,
+				1CD9343B25BFD1D8008B518D /* OrdersViewController.swift in Sources */,
 				1CA3607325BF05CC008C3A6B /* ViewController.swift in Sources */,
+				1CD9344425C06E69008B518D /* HomeCollectionViewCell.swift in Sources */,
 				1CA3606F25BF05CC008C3A6B /* AppDelegate.swift in Sources */,
+				1CD9344025BFD88C008B518D /* HomeTableViewCell.swift in Sources */,
 				1CA3607125BF05CC008C3A6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
